@@ -1,0 +1,386 @@
+/*.page {
+  width: 780px;
+  margin-left: 15px;
+
+  font-family: 'Source sans Pro', Calibri, Tahoma, sans-serif;
+  font-size: 16px;
+}*/
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.infoperso{
+  width: 80%;
+  margin: 20px auto;
+}
+.infoperso .header{
+  width: 100%;
+  height: 200px;
+  background-color: rgb(31, 34, 43);
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.header img {
+  width: 150px;
+  height: 200px;
+ border-radius: 50%;
+  position: absolute;
+  top : 50px;
+  left: 110px;
+  border: 5px solid white;
+  box-shadow: 3px 3px 10 px rgba(0, 0, 0, 0,.5);
+  cursor: pointer;
+  transition: .5s;
+  user-select: none;
+  filter: grayscale(100%);
+
+}
+.header img:hover{
+  filter: grayscale(0%);
+  transform: scale(1.05);
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0,.5);
+}
+.info-text{
+  color: white;
+  width: 60%;
+  margin-left: auto;
+}
+.info-text h1{
+  font-size: 60px;
+  font-weight: normal;
+}
+.info-text p{
+  font-size: 20px;
+  color: lightgray;
+}
+.contenu-Projet{
+  display: flex;
+  flex-wrap: wrap;
+}
+.partie-gauche{
+  width: 30%;
+  background-color: rgb(236, 236, 236);
+  text-align: center;
+}
+.partie-gauche .contact{
+  margin-top: 130px;
+  padding: 0 30px;
+}
+.contact h4{
+  font-size: 30px;
+  font-weight: normal;
+  margin: 20px 0;
+}
+.contact h5{
+  font-size: 18px;
+  margin: 10px 0;
+}
+.partie-droite{
+  width: 70%;
+}
+.competences {
+   margin-top: 20px;
+}
+.competences. h1{
+
+  font-weight: normal;
+}
+.bars{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 20px 10px;
+}
+.bars .bar1 p{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.bar1 span{
+  display: block;
+width: 100%;
+height: 10px;
+background-color: SlateGray;
+margin-top: 10px;
+border-radius: 10px;
+position: relative;
+}
+.bar1 span::before{
+  position: absolute;
+  content: "";
+  width: 80%;
+  height: 80%;
+  background-color: black;
+  top: 50%;
+  left: 2px;
+  transform: translateY(-50%);
+  border-radius: 10px ;
+}
+.bars .bar2 p{
+  font-size: 15px;
+  font-weight: bold;
+}
+.bar2 span{
+  display: block;
+width: 100%;
+height: 10px;
+background-color: SlateGray;
+margin-top: 10px;
+border-radius: 10px;
+position: relative;
+}
+.bar2 span::before{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 80%;
+  background-color: black;
+  top: 50%;
+  left: 2px;
+  transform: translateY(-50%);
+  border-radius: 10px ;
+}
+.bars .bar3 p{
+  font-size: 15px;
+  font-weight: bold;
+}
+  .bar3 span{
+    display: block;
+  width: 100%;
+  height: 10px;
+  background-color: SlateGray;
+  margin-top: 10px;
+  border-radius: 10px;
+  position: relative;
+  }
+  .bar3 span::before{
+    position: absolute;
+    content: "";
+    width: 90%;
+    height: 80%;
+    background-color: black;
+    top: 50%;
+    left: 2px;
+    transform: translateY(-50%);
+    border-radius: 10px ;
+  }
+  .bars .bar4 p{
+    font-size: 15px;
+    font-weight: bold;
+  }
+    .bar4 span{
+      display: block;
+    width: 100%;
+    height: 10px;
+    background-color: SlateGray;
+    margin-top: 10px;
+    border-radius: 10px;
+    position: relative;
+    }
+    .bar4 span::before{
+      position: absolute;
+      content: "";
+      width: 90%;
+      height: 80%;
+      background-color: black;
+      top: 50%;
+      left: 2px;
+      transform: translateY(-50%);
+      border-radius: 10px ;
+      }
+      .bars .bar11 p{
+        font-size: 15px;
+        font-weight: bold;
+      }
+      .bar11 span{
+        display: block;
+      width: 100%;
+      height: 10px;
+      background-color: SlateGray;
+      margin-top: 10px;
+      border-radius: 10px;
+      position: relative;
+      }
+      .bar11 span::before{
+        position: absolute;
+        content: "";
+        width: 50%;
+        height: 80%;
+        background-color: black;
+        top: 50%;
+        left: 2px;
+        transform: translateY(-50%);
+        border-radius: 10px ;
+      }
+      .bars .bar7 p{
+        font-size: 15px;
+        font-weight: bold;
+      }
+        .bar7 span{
+          display: block;
+        width: 100%;
+        height: 10px;
+        background-color: SlateGray;
+        margin-top: 10px;
+        border-radius: 10px;
+        position: relative;
+        }
+        .bar7 span::before{
+          position: absolute;
+          content: "";
+          width: 60%;
+          height: 80%;
+          background-color: black;
+          top: 50%;
+          left: 2px;
+          transform: translateY(-50%);
+          border-radius: 10px ;
+}
+.bars .bar6 p{
+  font-size: 15px;
+  font-weight: bold;
+}
+  .bar6 span{
+    display: block;
+  width: 100%;
+  height: 10px;
+  background-color: SlateGray;
+  margin-top: 10px;
+  border-radius: 10px;
+  position: relative;
+  }
+  .bar6 span::before{
+    position: absolute;
+    content: "";
+    width: 70%;
+    height: 80%;
+    background-color: black;
+    top: 50%;
+    left: 2px;
+    transform: translateY(-50%);
+    border-radius: 10px ;
+}
+.certification{
+  margin-top: 30px;
+
+
+}
+.certification h1{
+  font-weight: normal;
+  font-size: 30px;
+  margin: 20px 0;
+}
+.certification .contenu1 p{
+font-size: 20px;
+}
+.contenu1{
+  margin-top: 10px;
+}
+.contenu1 p{
+  padding-top: 10px;
+}
+.partie-droite {
+  width: 70%;
+  padding: 50px;
+}
+.partie-droite p{
+  padding-left: 70px;
+  text-align: justify;
+  word-break: break-all;
+  font-size: 17px;
+  color: DimGray;
+  margin-top: 10px;
+}
+.stage{
+  margin: 20px 0;
+}
+.stage{
+  margin-top: 10px;
+}
+.stage h3{
+  padding-top: 5px;
+}
+.Experinces .stage{
+  position: relative;
+  padding-left: 10px 0;
+}
+.stage h3{
+  font-size: 22px;
+  /*font-weight: bold;*/
+  padding-left: 70px;
+}
+.stage h4{
+  font-size: 18px;
+  padding-left: 70px;
+  font-weight: normal;
+}
+.stage span{
+  position: absolute;
+  font-weight: bold;
+  top: 10px;
+  right:  0;
+
+  font-size: 15px;
+
+}
+.formation{
+  margin-top: 20px;
+
+}
+.formation-group {
+  position: relative;
+  margin: 30px 0;
+}
+.formation-group h4{
+  padding-left: 80px;
+  font-size: 20px;
+  font-weight: normal;
+}
+.formation-group h4{
+  position: absolute;
+  top: 10;
+  right: 0;
+  font-size: 15px;
+  font-weight: bold;
+}
+.formation-group h4 {
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+.formation-group span{
+  position: absolute;
+  top: 10;
+  right: 0;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.formation-group p{
+  padding-left: 20px;
+}
+.atout-bloc {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 20px 10px;
+}
+.atout h1{
+  font-size: 30px;
+
+}
+.colonne{
+  position: relative;
+}
+.colonne h4{
+  padding: 10px;
+}
+.colonne span{
+  display: block;
+  position: relative;
+
+}
